@@ -1,0 +1,14 @@
+.smallBlockContainer {
+    width: 25vw;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+@media screen and (max-width: 375px) {
+    .smallBlockContainer {
+        width: auto;
+        height: 100vh;
+        min-height: 875px;
+        border-radius: 0;
+    }
+}

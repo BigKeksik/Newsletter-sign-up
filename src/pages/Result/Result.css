@@ -1,0 +1,30 @@
+.resultContainer {
+    padding: 50px 50px;
+}
+
+.resultImage {
+
+}
+
+@media screen and (max-width: 375px) {
+    .resultContainer {
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding: 150px 20px 20px 20px;
+    }
+
+    .resultImage {
+        margin: 0 0 15px;
+    }
+
+    .resultSpace {
+        height: 1px;
+        margin: 10px;
+    }
+
+    .resultButtonSpace {
+        margin: 300px 0 0;
+    }
+}

@@ -1,0 +1,44 @@
+body {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(54,56,77);
+}
+
+.container {
+  width: 100%;
+}
+
+.contentBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.textBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin: 0;
+}
+
+.listBlock {
+  margin-top: 15px;
+}
+
+.imagesBlock {
+  display: flex;
+  margin: 1.5rem 1.5rem;
+}

@@ -1,0 +1,76 @@
+body {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(54,56,77);
+}
+
+.container {
+    width: 100%;
+}
+
+.contentBlock {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.text {
+    margin: 0;
+}
+
+.listBlock {
+    margin-top: 15px;
+}
+
+.imagesBlock {
+    width: 400px;
+    height: 593px;
+    flex-shrink: 0;
+    background-image: url('../../images/illustration-sign-up-desktop.svg');
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        height: 100vh;        
+        margin: 0;
+        padding: 0;
+        align-items: baseline;
+    }
+
+    .contentBlock {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .textBlock {
+        width: 320px;
+        margin: 2.5rem 1.5rem;
+
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .imagesBlock {
+        margin: 0;
+        width: 375px;
+        height: 284px;
+        background-image: url('../../images/illustration-sign-up-mobile.svg');
+    }
+}

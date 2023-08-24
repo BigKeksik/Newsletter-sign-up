@@ -1,0 +1,15 @@
+.containerIconTextBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    margin: 20px 0;
+}
+
+.image {
+    margin-right: 10px;
+}
+
+.text {
+    
+}
